@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senai - Tur</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assests/js/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assests/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assests/img/logo.png" alt="Imagem do logo">
+
+        </div>
+        <h1> SENAI TUR</h1>
+        <nav class="menuTop">
+            <ul>
+                <li><a href="reserva.html" target="_blank">Reserva</a></li>
+                <li>Meus Pedidos</li>
+                <li>Dúvidas</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bemVindo">
+        <h2> SEJA BEM VINDO</h2>
+        <p> Está pensando en viajar? seja para negócios, lazer, saúde, reunião familiar,  o <strong>SENAI TUR</strong> oferece segurança, o conforto, a tranquilidade, suporte a eventosde 
+            para nossos clientes, buscando soluções personalizadas, acessíveis e adequadas a cada perfil e necessidade.</p>
+        <p>O <strong>SENAI TUR</strong> em o prazer de oferece a mais avançada tecnologia de atendimento, gestão e controle em voos. Venha nos conhecer. </p>
+    </section>
+
+    <section class="pesquisaPassagem">
+        <div class="blocos-esquerda">
+            <div class="origemDestino">
+                <!-- <label for="origem">Origem:</label> -->
+                <input type="text" name="origem" id="origem" placeholder="Digite aqui sua origem">
+    
+                <!-- <label for="destino">Destino:</label> -->
+                <input type="text" name="destino" id="destino" placeholder="Digite aqui seu destino">
+            </div>
+
+            <div class="tipoViagem">
+                <!-- <label>Tipo de Viagem:</label> -->
+                <label>
+                    <input type="radio" name="tipoViagem" value="ida" checked>
+                    Somente Ida
+                </label>
+                <label>
+                    <input type="radio" name="tipoViagem" value="idaevolta">
+                    Ida e Volta
+                </label>
+            </div>
+    
+            <div class="datas">
+                <span>
+                    <label for="dataIda">Data de Ida:</label>
+                    <input type="date" name="dataIda" id="dataIda">
+                </span>
+    
+                <span>
+                    <label for="dataRetorno">Data de Retorno:</label>
+                    <input type="date" name="dataRetorno" id="dataRetorno">
+                </span>
+            </div>
+    
+            
+    
+            <button class="btnPassagem">Buscar passagem</button>
+        </div>
+    
+        <div class="imgAviao">
+            <img src="assests/img/aviao.png" alt="Imagem Avião">
+        </div>
+    </section>
+    
+    <div class="modal meu-modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Detalhes da Passagem</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body" id="modalContent">
+                    <!-- O conteúdo da modal será preenchido dinamicamente aqui -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <a href="reserva.html" class="btn btn-success">Reserva</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="beneficios">
+    </section>
+
+    <section class="depoimentos">
+        <div class="usuario1">
+            <img src="assests/img/usuario1.png" alt="Imagem do usuario1">
+            <span>"Estou impressionado com a facilidade de usar o site Senai Tur <br> para reservar minhas passagens". </span>
+        </div>
+
+        <div class="usuario2">
+            <img src="assests/img/usuario2.png" alt="Imagem do usuario2">
+            <span>"Comprar passagens aéreas nunca foi tão simples! <br> O site Senai Tur oferece uma experiência de reserva rápida e eficiente".</span>
+        </div>
+
+        <div class="usuario2">
+            <img src="assests/img/usuario3.png" alt="Imagem do usuario3">
+            <span>"O Senai Tur me surpreendeu positivamente.  <br> O site é fácil de navegar e oferece informações previstas sobre os voos".</span>
+        </div>
+
+    </section>
+
+    <footer>
+        <nav class="menuRodape">
+            <ul>
+                <li>Home</li>
+                <li>Contato</li>
+                <li>WhatsApp</li>
+            </ul>
+        </nav>
+
+        <h3>Senai tur - Av. João Cernach, 1250</h3>
+        
+    </footer>
+    
+</body>
+</html>

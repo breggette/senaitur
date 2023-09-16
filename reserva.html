@@ -6,16 +6,32 @@
     <title>Reservações</title>
     <link rel="stylesheet" href="assests/css/reserva.css">
 </head>
-<body><div class="inicio"> <a href="senaiTur.html"><img src="assests/img/SENAI TUR.png" width="180px" alt="logo"></a> <br></div> 
+<body>
+    <div class="inicio"> 
+        <div class="logo">
+            <a href="index.html"><img src="assests/img/logo.png" alt="logo"></a> 
+        </div>
+
+        <div class="aviao">
+            <img src="assests/img/aviao.png" alt="Aviao">
+
+        </div>
+        
+        
+    </div> 
     
     <div class="reserva">
-        <h3><strong>Formas De Pagamento</strong></h3>
+        <section>
+            <h3><strong>FORMAS DE PAGAMENTO:</strong></h3><br>
         <p>Pix</p>      
         <input type="radio" name="pag"> 5% De desconto no pix
         <p>Cartão</p>
         <input type="radio" name="pag"> Até 12x no cartão con juros
         <br>
-         <h3> <strong> Dados do pagador</strong></h3><br>
+        </section>
+
+        <section>
+            <h3> <strong> DADOS DO PAGADOR</strong></h3><br>
          <p>Pessoa Fisica</p> 
          <input type="radio" name="pessoa">
          <p> Pessoa Jurídica</p> 
@@ -51,10 +67,12 @@
         <label for="Telef movel"> Telefone móvel</label>
         <input type="text" name="movél" placeholder="Ex: (11)99123.22.11">
 
+        </section>
         
-         <h3><strong>Dados do passageiro</strong></h3>
-         <p><h4>passageiro adulto 1</h4></p><br>
+        <section>
+            <h3><strong>DADOS DOS PASSAGEIROS:</strong></h3><br>
 
+         <p><h4>Passageiro adulto 1</h4></p>
          <p> Usar dados do pagador</p>
 
          <label for="name"> Nome </label>
@@ -82,22 +100,27 @@
         <label for="Telef movel"> Telefone móvel</label>
         <input type="text" name="movél" placeholder="Ex: (11)99123.22.11">
 
-        <button> Adicionar bagagem</button>
-        <button>Escolhe asentos</button>
-        <br>
-        <h2><strong>Informações importantes</strong></h2>
-        <p>
-            Confira o preenchimento dos campos e os detalhes do seu pedido antes de efetuar o pagamento, pois não conseguimos fazer alterações posteriores nos nomes dos mesmos, datas ou horários das passagens. Em caso de preenchimentos incorretos a única opção será o cancelamento do bilhete.
-            A 123Milhas não realiza marcação de assento. Você poderá conferir o seu assento e fazer eventuais mudanças diretamente com a companhia aérea no momento do check-in.
-            Informe-se sobre nossa política de alterações e cancelamentos.
-            Conheça os termos e condições de uso do nosso site.</p>
-       <div class="direita">
-        <a href="confirmacao.html"><button type="button">Comprar</button></a>
-       </div>
+        </section>
+         
+        <div class="btnButton">
+            <button> Adicionar bagagem</button>
+            <button>Escolhe asentos</button>
+        </div>
+
         
+        <div class="info">
+            <h2><strong>Informações importantes</strong></h2>
+            <p>
+                Confira o preenchimento dos campos e os detalhes do seu pedido antes de efetuar o pagamento, pois não conseguimos fazer alterações posteriores nos nomes dos mesmos, datas ou horários das passagens. Em caso de preenchimentos incorretos a única opção será o cancelamento do bilhete.
+                A 123Milhas não realiza marcação de assento. Você poderá conferir o seu assento e fazer eventuais mudanças diretamente com a companhia aérea no momento do check-in.
+                Informe-se sobre nossa política de alterações e cancelamentos.
+                Conheça os termos e condições de uso do nosso site.</p>
+            <a href="confirmacao.html"><button>Comprar</button></a>
+
+        </div>
 
     </div>
    <div class="pe">
-    <a href="detlahes.html"> <button><strong>Voltar</strong></button></a>
+    <a href="index.html"> <button><strong>Voltar</strong></button></a>
 </body>
 </html>

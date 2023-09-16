@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -12,31 +12,57 @@
     justify-items: center;
     justify-content: space-between;
 }
-.inicio img {
+.inicio .logo {
     background-color: white;
     border-radius: 60px;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
 }
 
 .reserva{
-  background-color: darkgrey;
+   background-color: aliceblue;
    background-repeat: no-repeat;
    background-size: cover;
    min-height: 566px;
-   width: 100%;
-    padding: 20px;
-}
-.comprar {
-    text-align: right;
-}
-.pe {
-    background-color: #0EA9DC;
-    text-align: center;
+   width: calc(100% - 40px);
+   padding: 20px;
     
 }
 
-.direita {
-    display: flex;
-    justify-content: flex-end;
+section{
+    padding: 10px;
+    border: #0EA9DC 1px solid;
+
 }
+
+.btnButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+button{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: #0EA9DC;
+}
+
+.info{
+    text-align: center;
+    padding: 10px;
+}
+
+.info button{
+    padding: 10px;
+    margin-top: 15px;
+}
+.pe {
+    background-color: #0EA9DC;
+    padding: 10px;
+    
+}
+
