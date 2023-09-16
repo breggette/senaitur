@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inicio {
+    padding: 10px;
+    background-color: #0EA9DC;
+    color: black;
+    height: 150px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+.inicio img {
+    background-color: white;
+    border-radius: 60px;
+    height: 80px;
+    width: 80px;
+}
+
+.reserva{
+  background-color: darkgrey;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 566px;
+   width: 100%;
+    padding: 20px;
+}
+.comprar {
+    text-align: right;
+}
+.pe {
+    background-color: #0EA9DC;
+    text-align: center;
+    
+}
+
+.direita {
+    display: flex;
+    justify-content: flex-end;
+}
